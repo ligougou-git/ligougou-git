@@ -8,4 +8,5 @@ layout: default
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m%Y" }}</time>
     </div>
     {% endfor %}
+    <p>{{ paginator.total_posts }}</p>
 </div>
