@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiGougou</title>
+    <style>
+        body > header {
+            border-bottom: 1px solid black;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            color: black;
+        }
+        a:active {
+            color: gray;
+        }
+        a:visited {
+            color: black;
+        }
+    </style>
 </head>
+
 <body>
-    <a href="{{ site.url }}">首页</a>
-    <hr />
+    <header>
+        <a href="{{ site.url }}">首页</a>
+    </header>
     {{ content }}
 </body>
+
 </html>
