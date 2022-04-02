@@ -4,51 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
     <title>LiGougou</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-        }
-        body > header {
-            border-bottom: 1px solid gray;
-            display: flex;
-            justify-content: center;
-        }
-        body > main {
-            display: flex;
-            justify-content: center;
-        }
-        a {
-            text-decoration: none;
-        }
-        a:link {
-            color: black;
-        }
-        a:visited {
-            color: black;
-        }
-        a:active {
-            color: gray;
-        }
-        ul {
-            list-style: none;
-            width: 100%;
-            padding: 0 64px;
-        }
-        ul > li {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px dashed gray;
-        }
-        body > footer {
-            border-top: 1px solid gray;
-            display: flex;
-            justify-content: center;
-        }
-    </style>
 </head>
 <body>
+    <fluent-button>你好，世界。</fluent-button>
     {{ content }}
 </body>
 </html>
