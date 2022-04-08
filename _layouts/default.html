@@ -4,11 +4,11 @@
 {%- include head.html -%}
 
 <body>
-    <header>
-        <a href="{{ site.url }}">首页</a>
-    </header>
-    <fluent-button>Hello world</fluent-button>
-    {{ content }}
+    {%- include header.html -%}
+    <main>
+        {{ content }}
+    </main>
+    {%- include footer.html -%}
 </body>
 
 </html>
