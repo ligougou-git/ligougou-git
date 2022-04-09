@@ -27,6 +27,8 @@ $color-outline: #79747E;
 $color-surface-variant: #E7E0EC;
 $color-on-surface-variant: #49454F;
 
+$banner-height: 64px;
+
 
 body, html {
     padding: 0;
@@ -36,21 +38,20 @@ body, html {
 header.banner {
     background-color: $color-on-primary;
     color: $color-primary;
-    min-height: 64px;
+    min-height: $banner-height;
     width: 100%;
     padding: 0;
     margin: 0;
     .banner__content {
-        min-height: 64px;
+        min-height: $banner-height;
         display: flex;
         justify-content: space-between;
+        padding: 8px;
         .banner__content__left {
             line-height: $banner-height;
-            padding-left: 8px;
         }
         .banner__content__right {
             line-height: $banner-height;
-            padding-right: 8px;
         }
     }
     border-bottom: 1px solid $color-outline;
