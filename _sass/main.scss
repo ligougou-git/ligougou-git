@@ -1,7 +1,32 @@
-$surface-color: #FFFBE6;
-$on-surface-color: #29302E;
-$primary-color: #356859;
-$on-surface-color-12: rgba(41, 48, 46, 0.12);
+$color-primary: #6750A4;
+$color-on-primary: #FFFFFF;
+$color-primary-container: #EADDFF;
+$color-on-primary-container: #21005D;
+
+$color-secondary: #625B71;
+$color-on-secondary: #FFFFFF;
+$color-secondary-container: #E8DEF8;
+$color-on-secondary-container: #1D192B;
+
+$color-tertiary: #7D5260;
+$color-on-tertiary: #FFFFFF;
+$color-tertiary-container: #FFD8E4;
+$color-on-tertiary-container: #31111D;
+
+$color-error: #B3261E;
+$color-on-error: #FFFFFF;
+$color-error-container: #F9DEDC;
+$color-on-error-container: #410E0B;
+
+$color-background: #FFFBFE;
+$color-on-background: #1C1B1F;
+$color-background-container: #FFFBFE;
+$color-on-background-container: #1C1B1F;
+
+$color-outline: #79747E;
+$color-surface-variant: #E7E0EC;
+$color-on-surface-variant: #49454F;
+
 
 body, html {
     padding: 0;
@@ -9,7 +34,7 @@ body, html {
 }
 
 header.banner {
-    background-color: $surface-color;
+    background-color: $color-on-primary;
     min-height: 64px;
     width: 100%;
     padding: 0;
@@ -24,5 +49,5 @@ header.banner {
 
         }
     }
-    border-bottom: 1px solid $on-surface-color-12;
+    border-bottom: 1px solid $color-outline;
 }
