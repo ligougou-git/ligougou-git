@@ -35,6 +35,7 @@ body, html {
 
 header.banner {
     background-color: $color-on-primary;
+    color: $color-primary;
     min-height: 64px;
     width: 100%;
     padding: 0;
@@ -42,11 +43,14 @@ header.banner {
     .banner__content {
         min-height: 64px;
         display: flex;
+        justify-content: space-between;
         .banner__content__left {
-
+            line-height: $banner-height;
+            padding-left: 8px;
         }
         .banner__content__right {
-
+            line-height: $banner-height;
+            padding-right: 8px;
         }
     }
     border-bottom: 1px solid $color-outline;
