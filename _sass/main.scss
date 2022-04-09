@@ -3,13 +3,26 @@ $on-surface-color: #29302E;
 $primary-color: #356859;
 $on-surface-color-12: rgba(41, 48, 46, 0.12);
 
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
 header.banner {
     background-color: $surface-color;
     min-height: 64px;
     width: 100%;
     padding: 0;
-    .banner-content {
+    margin: 0;
+    .banner__content {
+        min-height: 64px;
+        display: flex;
+        .banner__content__left {
 
+        }
+        .banner__content__right {
+
+        }
     }
     border-bottom: 1px solid $on-surface-color-12;
 }
